@@ -1,20 +1,6 @@
 {
   "rewrites": [
-    {
-      "source": "/1",
-      "destination": "/project-1"
-    },
-    {
-      "source": "/1/(.*)",
-      "destination": "/project-1/$1"
-    },
-    {
-      "source": "/2",
-      "destination": "/project-2"
-    },
-    {
-      "source": "/2/(.*)",
-      "destination": "/project-2/$1"
-    }
+    { "source": "/1/(.*)", "destination": "/project-1/dist/$1" },
+    { "source": "/2/(.*)", "destination": "/project-2/dist/$1" }
   ]
 }
