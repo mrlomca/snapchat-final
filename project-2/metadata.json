@@ -1,0 +1,5 @@
+{
+  "name": "SnapClone",
+  "description": "A high-fidelity simulation of the Snapchat chat interface, featuring a responsive mobile-first design, dynamic status indicators, and pixel-perfect replication of the UI elements.",
+  "requestFramePermissions": []
+}
